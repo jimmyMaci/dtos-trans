@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>de.alpharogroup</groupId>
+		<artifactId>mvn-java-parent</artifactId>
+		<version>5</version>
+		<relativePath></relativePath>
+	</parent>
+
+	<artifactId>dtos-trans</artifactId>
+	<version>1-SNAPSHOT</version>
+
+	<developers>
+
+		<developer>
+			<id>jimmyMaci</id>
+			<name>James Phelps</name>
+			<roles>
+				<role>Project manager</role>
+				<role>Developer</role>
+			</roles>
+			<timezone>New York</timezone>
+		</developer>
+
+	</developers>
+
+	<scm>
+		<connection>scm:git:git:@github.com:jimmyMaci/${project.artifactId}.git</connection>
+		<developerConnection>scm:git:git@github.com:jimmyMaci/${project.artifactId}.git</developerConnection>
+		<url>git:@github.com:jimmyMaci/${project.artifactId}.git</url>
+	</scm>
+
+	<issueManagement>
+		<system>github.com</system>
+		<url>https://github.com/jimmyMaci/${project.artifactId}/issues</url>
+	</issueManagement>
+
+</project>
