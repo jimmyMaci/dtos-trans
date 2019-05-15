@@ -10,6 +10,7 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class BroDto {
 
+	Integer id;
     String firstname;
     String lastname;
     String city;
