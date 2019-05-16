@@ -1,6 +1,10 @@
 package de.alpharogroup.migration.dto;
 
-import lombok.*;
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
 
 @Data
@@ -10,8 +14,9 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class FriendDto {
 
-    String firstname;
-    String lastname;
-    String city;
+	Integer id;
+	String city;
+	String firstname;
+	String lastname;
 
 }
