@@ -11,8 +11,8 @@ import lombok.experimental.FieldDefaults;
 public class BroDto {
 
 	Integer id;
-    String firstname;
-    String lastname;
-    String city;
+	String city;
+	String firstname;
+	String lastname;
 
 }
